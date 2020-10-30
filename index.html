@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Notes</title>
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4 text-dark">Quick notes</h1>
+            <form class="search">
+                <input type="text" name="search" placeholder="search for notes" class="form-control m-auto">
+            </form>
+        </header>
+
+        <ul class="list-group notes mx-auto text-light">
+            
+        </ul>
+
+        <form class="add text-center my-4">
+            <label class="text-dark">Add a new note</label>
+            <input type="text" name="add" class="form-control m-auto">
+            <button type="submit">Add note</button>
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
